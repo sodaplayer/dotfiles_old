@@ -1,0 +1,22 @@
+# -- Options --
+
+unsetopt MENU_COMPLETE
+setopt AUTO_CD
+
+setopt INTERACTIVE_COMMENTS
+
+# -- History --
+HISTSIZE=8192
+SAVEHIST=8192
+
+HISTFILE=~/.zsh_history
+
+setopt APPEND_HISTORY
+setopt INC_APPEND_HISTORY
+setopt HIST_IGNORE_DUPS
+setopt HIST_IGNORE_SPACE
+setopt HIST_FIND_NO_DUPS
+setopt HIST_SAVE_NO_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt HIST_VERIFY
+setopt EXTENDED_HISTORY
