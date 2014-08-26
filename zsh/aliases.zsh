@@ -12,3 +12,5 @@ alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
 
 alias grep='grep --color=auto'
+
+alias sourcevenv='source /usr/bin/virtualenvwrapper.sh'
